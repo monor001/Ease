@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ease</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_more_courses">MoreCourses</string>
+    <string name="title_activity_course_overview">CourseOverview</string>
+    <string name="title_activity_flip_manager">FlipManager</string>
+    <string name="title_activity_selection_puzzle">SelectionPuzzle</string>
+    <string name="title_activity_gap_filling_puzzle">GapFillingPuzzle</string>
+    <string name="title_activity_trends">Trends</string>
+    <string name="title_activity_statistics_view">StatisticsView</string>
+    <string name="title_activity_flipcard_view">FlipcardView</string>
+</resources>

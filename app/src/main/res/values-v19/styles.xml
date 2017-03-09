@@ -1,0 +1,209 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlActivated">#009688</item>
+        <item name="colorControlNormal">@color/White</item>
+
+    </style>
+
+
+    <!-- Upper Part. -->
+
+
+
+    <!-- Statistic Button. -->
+    <style name="Statistic">
+        <item name="android:background">@drawable/stat_background</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">19dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginRight">100dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <!-- Menu Toolbar. -->
+    <style name="Menu">
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">19dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginLeft">100dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <!-- Menu Button. -->
+    <style name="Menu.button">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">19dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginLeft">100dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+
+    <!-- Ease Logo. -->
+    <style name="Ease_Logo">
+        <item name="android:background">@drawable/logo</item>
+        <item name="android:layout_width">85dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginTop">80dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="Ease_Logo.Normal">
+        <item name="android:background">@drawable/logo</item>
+        <item name="android:layout_width">85dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginTop">80dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- Horizontal Line. -->
+    <style name="HorizontalLine">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@drawable/strock</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_marginBottom">40dp</item>
+    </style>
+
+
+    <style name="ToolbarTheme"
+        parent="Widget.AppCompat.Toolbar">
+        <item name="actionMenuTextColor">#1bff3a</item>
+        <item name="colorControlNormal">@color/White</item>
+        <item name="colorControlActivated">#FFF</item>
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+
+        <item name="colorControlHighlight">@null</item>
+    </style>
+
+    <style name="TextInputLayout.Theme" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textColorHint">@color/White</item>
+        <item name="backgroundTint">@color/White</item>
+    </style>
+
+    <style name="Text_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="Text_Style.WelcomeTitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="Text_Style.Title">
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="Text_Style.content_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">15dp</item>
+
+    </style>
+
+    <style name="Text_Style.question_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginBottom">18dp</item>
+    </style>
+
+
+    <style name="Text_Style.Statistics">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="Text_Style.Statistics.Numbers">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="Text_Style.Statistics.Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text_Style.SelectAll">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="Buttons_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:background">@drawable/strock</item>
+    </style>
+
+    <style name="Buttons_Style.skip">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Buttons_Style.AddSomething">
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:layout_width">300dp</item>
+    </style>
+
+    <style name="Buttons_Style.PuzzleArrangment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:padding">19dp</item>
+    </style>
+
+    <style name="Buttons_Style.PuzzleGapfilling">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">19dp</item>
+    </style>
+
+    <style name="Buttons_Style.FlipcardPuzzleBottom">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+    <style name="Buttons_Style.selectAll">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

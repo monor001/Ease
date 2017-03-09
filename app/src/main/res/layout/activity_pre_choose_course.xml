@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pre_choose_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="views.PreChooseCourse">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/upper_part"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/Logo_Welcome"
+            style="@style/Ease_Logo"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/upper_part">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <HorizontalScrollView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/s1EnterCourse_MA"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_width="250dp"
+                android:layout_height="220dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/lLEnterCourse_MA"
+                    android:gravity="center">
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+        </RelativeLayout>
+
+
+        <Button
+            android:text="Finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/finish_preCS"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/rB0_postCS"
+            android:layout_alignStart="@+id/rB0_postCS"
+            android:background="@drawable/strock"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

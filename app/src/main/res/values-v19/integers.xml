@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <integer name="courseTextPaddingRight">200</integer>
+    <integer name="courseTextPaddingTop">22</integer>
+    <integer name="courseTextPaddingLeft">40</integer>
+    <integer name="courseTextPaddingBottom">22</integer>
+
+    <integer name="courseTextMarginRight">10</integer>
+    <integer name="courseTextMarginTop">10</integer>
+    <integer name="courseTextMarginLeft">10</integer>
+    <integer name="courseTextMarginBottom">10</integer>
+
+    <integer name="courseTogglePaddingRight">40</integer>
+    <integer name="courseTogglePaddingTop">22</integer>
+    <integer name="courseTogglePaddingLeft">40</integer>
+    <integer name="courseTogglePaddingBottom">22</integer>
+
+    <integer name="courseToggleMarginRight">10</integer>
+    <integer name="courseToggleMarginTop">10</integer>
+    <integer name="courseToggleMarginLeft">10</integer>
+    <integer name="courseToggleMarginBottom">10</integer>
+
+    <integer name="chapterButtonPaddingRight">10</integer>
+    <integer name="chapterButtonPaddingTop">5</integer>
+    <integer name="chapterButtonPaddingLeft">10</integer>
+    <integer name="chapterButtonPaddingBottom">5</integer>
+
+    <integer name="chapterProgressCircleMinHeight">30</integer>
+
+    <integer name="card_flip_time_full">1000</integer>
+    <integer name="card_flip_time_half">500</integer>
+
+
+
+</resources>

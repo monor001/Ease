@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_flip_manager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="views.FlipManager"
+    tools:showIn="@layout/app_bar_flip_manager">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/upper_part"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Statistic"/>
+
+        <Button
+            android:id="@+id/menu"
+            style="@style/Menu.button"
+            android:clickable="false" />
+
+        <ImageView
+            android:id="@+id/Logo_Welcome"
+            style="@style/Ease_Logo.Normal"/>
+
+        <ImageView
+            app:srcCompat="@drawable/arcs"
+            android:id="@+id/arcs"
+            android:layout_width="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="85dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/strock"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/Text_Style.content_text"
+                android:text="SEO"
+                android:id="@+id/courseName_FC"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                style="@style/Text_Style.content_text"
+                android:text="0 / 0"
+                android:id="@+id/cardNumber"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="230dp"
+            android:orientation="horizontal"
+            android:id="@+id/lL_parentCards">
+
+            <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:text=" WEG DAMIT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt3"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/DarkBlue"
+            android:background="@color/White"
+            android:minHeight="39dp"
+            android:minWidth="130dip" />
+    </LinearLayout>
+
+
+</RelativeLayout>

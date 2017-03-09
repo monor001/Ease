@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lockscreen.localshop.com.ease">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="views.Welcome"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="views.PreChooseCourse"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="views.SignIn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="views.HomeActivity"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="views.MoreCourses"
+            android:label="@string/title_activity_more_courses"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="views.CourseOverview"
+            android:label="@string/title_activity_course_overview"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="views.FlipManager"
+            android:label="@string/title_activity_flip_manager"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="views.SelectionPuzzle"
+            android:label="@string/title_activity_selection_puzzle"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="views.GapFillingPuzzle"
+            android:label="@string/title_activity_gap_filling_puzzle"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="views.Trends"
+            android:label="@string/title_activity_trends"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="views.StatisticsView"
+            android:label="@string/title_activity_statistics_view"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="views.FlipcardView"
+            android:label="@string/title_activity_flipcard_view"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" ></activity>
+
+    </application>
+
+</manifest>

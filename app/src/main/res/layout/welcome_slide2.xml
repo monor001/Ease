@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:id="@+id/lL_Top_Logos"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/LinearLayout_Top_Logos_Margin"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="@dimen/LinearLayout_Logo_Width"
+            android:layout_height="@dimen/LinearLayout_Logo_Height"
+            app:srcCompat="@drawable/einzlabor"
+            android:id="@+id/imageView"
+            android:layout_marginRight="@dimen/LinearLayout_Side_Logos_Margin"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="@dimen/LinearLayout_Logo_Width"
+            android:layout_height="@dimen/LinearLayout_Logo_Height"
+            app:srcCompat="@drawable/ccec"
+            android:id="@+id/imageView2"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/lL_Top_Logos"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/Logo_Welcome"
+            android:layout_width="@dimen/Main_Logo_Width"
+            android:layout_height="@dimen/Main_Logo_Height"
+            app:srcCompat="@drawable/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/lL_Top_Logos"
+            android:layout_marginTop="@dimen/Main_Logo_Top_Margin"/>
+
+        <ImageView
+            app:srcCompat="@drawable/ecom"
+            android:id="@+id/imageView3"
+            android:layout_marginTop="20dp"
+            android:layout_height="70dp"
+            android:layout_width="70dp" />
+
+        <TextView
+            style="@style/Text_Style.WelcomeTitle"
+            android:text="Lerne alles über die \n Digitalisierung des Handels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="views.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/upper_part"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Statistic"/>
+
+        <Button
+            android:id="@+id/menu"
+            style="@style/Menu.button"
+            android:clickable="false" />
+
+        <ImageView
+            android:id="@+id/Logo_Welcome"
+            style="@style/Ease_Logo.Normal"/>
+
+        <ImageView
+            app:srcCompat="@drawable/arcs"
+            android:id="@+id/arcs"
+            android:layout_width="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="85dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <GridLayout
+            android:id="@+id/gL_staToggle_MA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp">
+
+        </GridLayout>
+
+        <TextView
+            android:text="Meine Kurse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tEnterCourse_MA"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/background_light"
+            android:layout_marginBottom="10dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:id="@+id/gl_circleSta_MA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true">
+
+                <RelativeLayout
+                    android:id="@+id/rLCircle0_MA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rLCircle1_MA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rLCircle2_MA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rLCircle3_MA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RelativeLayout>
+            </GridLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <HorizontalScrollView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/s1EnterCourse_MA"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_width="250dp"
+                android:layout_height="220dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/lLEnterCourse_MA"
+                    android:gravity="center">
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/newTopicBExtra_MA"
+                android:text="NEUER KURS"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/strock"
+                android:textColor="@android:color/background_light"
+                android:minHeight="30dp"
+                android:minWidth="0dp"/>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lLExtra_MA"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cards"
+                android:id="@+id/imageView"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="35dp" />
+
+            <Button
+                android:id="@+id/flipcardbtn_MA"
+                android:text="LERNEN"
+                android:layout_height="wrap_content"
+                android:background="@drawable/strock"
+                android:textColor="@android:color/background_light"
+                android:layout_width="200dp"
+                android:minHeight="30dp"
+                android:minWidth="0dp"
+                android:paddingLeft="50dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
